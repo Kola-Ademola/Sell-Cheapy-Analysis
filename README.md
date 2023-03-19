@@ -12,8 +12,8 @@ SellCheapy Retail is a chain of department stores that sells a wide range of pro
 The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
 I’ll be using the provided dataset to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance.
-*	___What do customers spend on the most?___
-*	___What encourages them to spend on this product?___
+*	___What do customers spend on the most & What drives this?___
+*	___What has sales been like over the years?___
 *	___Where are our customers from?___
 *	___What is our order fulfilment rate?___
 *	___How much do our customers spend when shopping & how do we increase spending?___
@@ -61,6 +61,39 @@ This report contains 2 pages/dashboard;
 |CUSTOMER|SALES|
 |----------|--------------|
 |![](images/customer_dashboard.jpg)|![](images/sales_dashboard.jpg)|
+|This gives an overview and general information on Customers like; **Total Customers**, **Average amount spent**, **Customers location** etc...|This gives an overview and general information on Sales like; **Total Orders**, **Average Item Price**, **Sales Trend over the years** etc...|
+___
+
+### ___What do customers spend on the most & What drives this?___
+![](images/sales_by_prod.png)
+* Products in the **BIKES** category generate the most sales
+* and sales is not driven by **Special Offers** because most items still **sold without discount**
+![](images/sales_offer.png)
+
+___
+### ___What has sales been like over the years?___
+#### Sales Trend Overview from 2011 - 2014
+![](images/sales_trend.png)
+* We can see a steady increase from 2011 - 2013 which is the best year with over **$49M** in sales, but since then sales started declining.
+#### 2011 Sales Trend
+![](images/2011_sales.png)
+#### 2012 Sales Trend
+![](images/2012_sales.png)
+#### 2013 Sales Trend
+![](images/2013_sales.png)
+#### 2014 Sales Trend
+![](images/2014_sales.png)
+___
+
+### 	___Where are our customers from?___
+![](images/customer_country.png)  
+Customers are spread out across 6 diffrent countries but, Most of the customeer base is from **USA** with;
+* Over **4400** customers
+* **$46.8M** in Sales and..
+* Over **7000+** orders. 
+___
+*	___What is our order fulfilment rate?___
+*	___How much do our customers spend when shopping & how do we increase spending?___
 ___
 ## RECOMMENDATION & CONCLUSION
 ___
