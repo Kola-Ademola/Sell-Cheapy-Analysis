@@ -27,7 +27,14 @@ ___
 ## SKILLS DEMONSTRATED
 ___
 For this project, I used the following skills or tools;
-*	___SQL: I used complex JOINS to query the database in SQL SERVER to gather the necessary data for this project.___ 
+*	___SQL: I used complex JOINS to query the database in SQL SERVER to gather the necessary data for this project.___   
+**CUSTOMER TABLE QUERY**
+![](images/customer_query.png)
+**SALES TABLE QUERY**
+![](images/sales_query.png)
+**ORDER & SHIPPING TABLE QUERY**
+![](images/order_query.png)  
+
 *	___DAX: After loading the data into Power BI I used Measures and DAX to aggregate the necessary data I needed___
 *	___Power BI customization: I used the buttons feature in Power BI to create a more interactive dashboard.___
 ___
@@ -62,6 +69,7 @@ This report contains 2 pages/dashboard;
 |----------|--------------|
 |![](images/customer_dashboard.jpg)|![](images/sales_dashboard.jpg)|
 |This gives an overview and general information on Customers like; **Total Customers**, **Average amount spent**, **Customers location** etc...|This gives an overview and general information on Sales like; **Total Orders**, **Average Item Price**, **Sales Trend over the years** etc...|
+### LINK TO DASHBOARD :::: [SELL CHEAPY DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiNzhkOTY3MWItYWRiZS00ZjU0LTkzMjMtZjQxYTliNjhmMjczIiwidCI6ImQyMzQyMjIxLWJiM2ItNGQ1ZS04NWRmLTkyYzFlOTg0YTNlZCJ9)
 ___
 
 ### ___What do customers spend on the most & What drives this?___
@@ -92,15 +100,23 @@ Customers are spread out across 6 diffrent countries but, Most of the customeer 
 * **$46.8M** in Sales and..
 * Over **7000+** orders. 
 ___
-*	___What is our order fulfilment rate?___
-*	___How much do our customers spend when shopping & how do we increase spending?___
+###	___What is our order fulfilment rate?___
+![](images/fulfillment.png)
+* There's a 100% **FULFILLMENT** rate as we can see, all 31,000+ orders were fulfilled/delivered to customers
+___
+###	___How much do our customers spend when shopping & how do we increase spending?___
+![](images/aov.png)
+* The **Average Order Value** shows that customers spend **$3,916** on average.
 ___
 ## RECOMMENDATION & CONCLUSION
 ___
+#### Here are my recommendations;
 
+* Special sales should be carried out more often in the form of Discount or any other form of Special Offers to boost sales, we can see that most sales were made even with discount or any form of special offers, so there will be an increase in sales when more special offers are intoduced.  
 
-Special OFFErS HAVE NO EFFECT ON THE Accessories category so they should be more special offers for other categories to boost their sales
+* The marketing team should think of a good marketing campaign to promote sales in other countries. Mohority of sales and customers are in the USA, so the marketing team should look into carrying out marketing campaigns and targeted ads at other country to boost sales and gain more customers as well.  
+  
+* The data collection process should be reviewed because they are a lot of issues with the data quality. Customer demographic data were missing and this was a major limitation for this analysis and I suggest the data collection and integrity should be reviewed as well so we have enough data and get a better knowledge of sales and customers as weell.
 
-Data collection process should be reviewed to get proper customer demography
 
 
