@@ -1,4 +1,5 @@
 # Sell Cheapy Analysis
+## by Kola Ademola
 ___
 ![](images/DA_Scenario_2.png)
 
