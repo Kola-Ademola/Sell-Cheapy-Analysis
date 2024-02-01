@@ -60,7 +60,7 @@ The relationship formed in the model is a star schema as seen below;
 
 |AUTO-MODEL|ADJUSTED-MODEL|
 |----------|--------------|
-|![](images/auto_model.jpg)|![](images/adj_model.jpg)|
+|![](images/auto_model.jpg)|![](images/adj_model.png)|
 ___
 ## ANALYSIS & VISUALIZATION
 ___
@@ -68,15 +68,16 @@ This report contains 2 pages/dashboard;
 
 |CUSTOMER|SALES|
 |----------|--------------|
-|![](images/customer_dashboard.jpg)|![](images/sales_dashboard.jpg)|
+|![](images/customer_dashboard.jpg)|![](images/sales_dashboard.png)|
 |This gives an overview and general information on Customers like; **Total Customers**, **Average amount spent**, **Customers location** etc...|This gives an overview and general information on Sales like; **Total Orders**, **Average Item Price**, **Sales Trend over the years** etc...|
 ### LINK TO DASHBOARD :::: [SELL CHEAPY DASHBOARD](https://app.powerbi.com/view?r=eyJrIjoiNzhkOTY3MWItYWRiZS00ZjU0LTkzMjMtZjQxYTliNjhmMjczIiwidCI6ImQyMzQyMjIxLWJiM2ItNGQ1ZS04NWRmLTkyYzFlOTg0YTNlZCJ9)
 ___
 
 ### ___What do customers spend on the most & What drives this?___
 ![](images/sales_by_prod.png)
-* Products in the **BIKES** category generate the most sales
-* and sales is not driven by **Special Offers** because most items still **sold without discount**
+* Products in the **BIKES** category generate the most revenue & profit generally
+* ![](images/sales_by_prod2.png)  
+* and sales is not driven by **Special Offers/Promotions** because most items still **sold without discount**
 ![](images/sales_offer.png)
 
 ___
@@ -90,8 +91,8 @@ ___
 ![](images/2012_sales.png)
 #### 2013 Sales Trend
 ![](images/2013_sales.png)
-#### 2014 Sales Trend
-![](images/2014_sales.png)
+#### KPI's
+![](images/sales_kpi.png)
 ___
 
 ### 	___Where are our customers from?___
