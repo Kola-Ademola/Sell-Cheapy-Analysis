@@ -36,9 +36,10 @@ For this project, I used the following skills or tools;
 **ORDER & SHIPPING TABLE QUERY**
 ![](images/order_query.png)  
 
-*	___DAX: After loading the data into Power BI I used Measures and DAX to aggregate the necessary data I needed___
-*	___Power BI customization: I used the buttons feature in Power BI to create a more interactive dashboard.___
-___
+#### DATA IMPORTATION/LOADING
+I connected to an SQL SERVER database for this project and imported the data to Power BI.  
+![](images/db_connection.png)    
+
 ## DATA TRANSFORMATION
 ___
 After importing the data to Power BI, I did some transformation to add additional columns (Conditional columns). I added this column to the **CUSTOMER_DETAILS & ORDER_DETAILS_&_SHIPPING** table, some of the steps include;
@@ -48,19 +49,31 @@ After importing the data to Power BI, I did some transformation to add additiona
 ___
 ## DATA MODELLING
 ___
-I have 3 tables; 
-* ___CUSTOMER_DETAILS___
-* ___SALES_DETAILS___
-* ___ORDER_DETAILS_&_SHIPPING___  
-Loading the dataset into Power Bi automatically creates an automatic model, but I will be making some adjustments to the auto model created by Power BI;
-*	I changed the ___‘Cross-filter direction’ to ‘Both’___ to allow a more dynamic filtering.
-*	___CUSTOMER_DETAILS & ORDER_DETAILS_&_SHIPPING___ have a Many to **One(*:1)** relationship
-*	___SALES_DETAILS & ORDER_DETAILS_&_SHIPPING___ have a Many to **One(*:1)** relationship
-The relationship formed in the model is a star schema as seen below;
+I have 12 tables; 
+* __DimCustomer__ 
+* __DimGeography__  
+* __DimProduct__  
+* __DimProductSubcategory__  
+* __DimProductCategory__  
+* __DimPromotion__  
+* __DimReseller__  
+* __DimSalesReason__  
+* __DimSalesTerritory__  
+* __FactInternetSales__  
+* __FactInternetSalesReason__  
+* __FactResellerSales__  
+Loading the dataset into Power Bi automatically creates an automatic model, but I will be making alot of adjustments to the auto model created by Power BI;
+*	I avoided setting ___‘Cross-filter direction’ to ‘Both’___ as this is not very good for performance generally, instead I used *DAX* for __cross-filtering__ to allow a more dynamic filtering.
+*	I added a *Calendar* table to my model.
+*	*	___DAX: After loading the data into Power BI I used Measures and DAX to aggregate the necessary data I needed___
+*	I used alot of *DAX* measure for; analysis, calculations, adding calculated columns etc...
+I was able to create a **Snowflake Schema** model;
 
 |AUTO-MODEL|ADJUSTED-MODEL|
 |----------|--------------|
-|![](images/auto_model.jpg)|![](images/adj_model.png)|
+|![](images/auto_model.png)|![](images/adj_model.png)|  
+*	___Power BI customization: I used the buttons feature in Power BI to create a more interactive dashboard.___
+___
 ___
 ## ANALYSIS & VISUALIZATION
 ___
