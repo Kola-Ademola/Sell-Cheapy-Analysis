@@ -95,7 +95,6 @@ ___
 ___
 ### ___What has sales been like over the years?___
 #### Sales Trend Overview from 2011 - 2013
-![](images/sales_trend.png)
 * We can see a steady increase from 2011 - 2013, with *2013* as the best year with over **$49M** in sales & **$8M** in profit.  
 #### 2011 Sales Trend
 ![](images/2011_sales.png)
@@ -119,6 +118,7 @@ ___
 ###	___How much do our customers spend when shopping & how do we increase spending?___
 ![](images/aov.png)
 * The **Average Order Value** generally shows that customers spend around **$748** on average.
+  > We can increase spending by creating complimentary product offers, by bundling **Bikes*8 & **Components/Accessories** together in a single sale.
 ___
 ## RECOMMENDATION & CONCLUSION
 ___
