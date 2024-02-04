@@ -13,7 +13,7 @@ SellCheapy Retail is a chain of department stores that sells a wide range of pro
 The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
 I’ll be using the provided dataset to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance.
-*	___What do customers spend on the most & What drives this?___
+*	___What do customers spend on the most & does Special offers/discount drives this?___
 *	___What has sales been like over the years?___
 *	___Where are our customers from?___
 *	___What is our order fulfilment rate?___
@@ -84,12 +84,13 @@ ___
 ___ 
 #### KPI's  
 ![](images/sales_kpi.png)  
-### ___What do customers spend on the most & What drives this?___  
-![](images/sales_by_prod.png)
-* Products in the **BIKES** category generates the most revenue & profit generally  
- ![](images/sales_by_prod2.png)  
-* and sales is not really driven by **Special Offers/Promotions** because most items still **sold without discount**
+### ___What do customers spend on the most & does Special offers/discount drives this?___  
+![](images/sales_by_prod.png)  
+>  Products in the **BIKES** category generates the most revenue & profit generally  
+ ![](images/sales_drive.png)  
+* but Drilling further to see if anything is driving this sales for the **Bikes**, we can see that **Special Offers/Promotions** does not drive sales for it because most items still **sold without discount**
 ![](images/sales_offer.png)
+> Even from our top customers, it is still the same. **Discount** does not drive sales.
 
 ___
 ### ___What has sales been like over the years?___
